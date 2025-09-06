@@ -2,12 +2,12 @@
 <testng-results ignored="1" total="6" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-04T14:16:48 IST" name="Opencart App Test Regression Suite" finished-at="2025-09-04T14:17:39 IST" duration-ms="51634">
+  <suite started-at="2025-09-06T13:57:28 IST" name="Opencart App Test Regression Suite" finished-at="2025-09-06T13:57:50 IST" duration-ms="21901">
     <groups>
     </groups>
-    <test started-at="2025-09-04T14:16:48 IST" name="Login Page Test" finished-at="2025-09-04T14:17:39 IST" duration-ms="51634">
+    <test started-at="2025-09-06T13:57:28 IST" name="Login Page Test" finished-at="2025-09-06T13:57:50 IST" duration-ms="21901">
       <class name="com.qa.opencart.tests.LoginPageTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.opencart.tests.LoginPageTest@21079a12]" started-at="2025-09-04T14:16:48 IST" name="setup" finished-at="2025-09-04T14:17:35 IST" duration-ms="46127" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.opencart.tests.LoginPageTest@26844abb]" started-at="2025-09-06T13:57:29 IST" name="setup" finished-at="2025-09-06T13:57:44 IST" duration-ms="15789" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -28,27 +28,27 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="forgotPwdLinkExistTest()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@21079a12]" started-at="2025-09-04T14:17:35 IST" name="forgotPwdLinkExistTest" finished-at="2025-09-04T14:17:35 IST" duration-ms="167" status="PASS">
+        <test-method signature="forgotPwdLinkExistTest()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@26844abb]" started-at="2025-09-06T13:57:45 IST" name="forgotPwdLinkExistTest" finished-at="2025-09-06T13:57:45 IST" duration-ms="290" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- forgotPwdLinkExistTest -->
-        <test-method signature="loginPageTitleTest()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@21079a12]" started-at="2025-09-04T14:17:35 IST" name="loginPageTitleTest" finished-at="2025-09-04T14:17:35 IST" duration-ms="73" status="PASS">
+        <test-method signature="loginPageTitleTest()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@26844abb]" started-at="2025-09-06T13:57:45 IST" name="loginPageTitleTest" finished-at="2025-09-06T13:57:45 IST" duration-ms="116" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPageTitleTest -->
-        <test-method signature="loginPageURLTest()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@21079a12]" started-at="2025-09-04T14:17:35 IST" name="loginPageURLTest" finished-at="2025-09-04T14:17:35 IST" duration-ms="46" status="PASS">
+        <test-method signature="loginPageURLTest()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@26844abb]" started-at="2025-09-06T13:57:45 IST" name="loginPageURLTest" finished-at="2025-09-06T13:57:45 IST" duration-ms="112" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPageURLTest -->
-        <test-method signature="loginTest()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@21079a12]" started-at="2025-09-04T14:17:35 IST" name="loginTest" finished-at="2025-09-04T14:17:37 IST" duration-ms="2489" status="PASS">
+        <test-method signature="loginTest()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@26844abb]" started-at="2025-09-06T13:57:45 IST" name="loginTest" finished-at="2025-09-06T13:57:48 IST" duration-ms="2706" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method signature="logoExistTest()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@21079a12]" started-at="2025-09-04T14:17:38 IST" name="logoExistTest" finished-at="2025-09-04T14:17:38 IST" duration-ms="92" status="PASS">
+        <test-method signature="logoExistTest()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@26844abb]" started-at="2025-09-06T13:57:48 IST" name="logoExistTest" finished-at="2025-09-06T13:57:48 IST" duration-ms="79" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoExistTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@21079a12]" started-at="2025-09-04T14:17:38 IST" name="tearDown" finished-at="2025-09-04T14:17:39 IST" duration-ms="1777" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@26844abb]" started-at="2025-09-06T13:57:48 IST" name="tearDown" finished-at="2025-09-06T13:57:50 IST" duration-ms="1864" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
