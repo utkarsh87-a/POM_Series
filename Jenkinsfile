@@ -39,7 +39,7 @@ pipeline
         stage('Regression UI Automation Tests') {
             steps {
                 catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE') {
-                    git 'git@github.com:utkarsh87-a/POM_Series.git'
+                    git 'https://github.com/utkarsh87-a/POM_Series.git'
                     bat "mvn clean test -Dsurefire.suiteXmlFiles=src/test/resources/testrunners/testng_sanity.xml"
                     
                 }
@@ -68,7 +68,7 @@ pipeline
         stage('Sanity Automation Test') {
             steps {
                 catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE') {
-                    git 'git@github.com:utkarsh87-a/POM_Series.git'
+                    git 'https://github.com/utkarsh87-a/POM_Series.git'
                     bat "mvn clean test -Dsurefire.suiteXmlFiles=src/test/resources/testrunners/testng_sanity.xml -Denv=qa"
                     
                 }
