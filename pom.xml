@@ -83,7 +83,7 @@
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
-			<version>1.18.28</version>
+			<version>1.18.38</version>
 		</dependency>
 		<dependency>
 			<groupId>org.aspectj</groupId>
@@ -115,6 +115,7 @@
 					<reuseForks>true</reuseForks>
 					<suiteXmlFiles>
 						<!--<suiteXmlFile>src/test/resources/testrunners/testng_sanity.xml</suiteXmlFile>-->
+						<!--suppress UnresolvedMavenProperty -->
 						<suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
 					</suiteXmlFiles>
 					
